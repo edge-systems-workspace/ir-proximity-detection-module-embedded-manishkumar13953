@@ -18,14 +18,10 @@ bool obstacleDetected = false;
 
 void setup() {
 
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
+ pinMode(irPin, INPUT);
 
-    // TODO 4:
-    // Configure IR pin as INPUT
-
-    // TODO 5:
-    // Print system initialization message
+ Serial.begin(9600);
+ // Initialize serial communication
 }
 
 void loop() {
